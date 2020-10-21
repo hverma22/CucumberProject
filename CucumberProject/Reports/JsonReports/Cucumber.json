@@ -3,17 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-21T11:00:19.567Z",
-        "line": 11,
-        "name": "Test the valid login",
+        "start_timestamp": "2020-10-21T12:03:16.220Z",
+        "line": 3,
+        "name": "Test the valid login using DataTable",
         "description": "",
-        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;2",
+        "id": "test-the-login-functionality-of-orangehrm-using-datatable;test-the-valid-login-using-datatable",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 15641000000,
+              "duration": 13946000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,85 @@
           },
           {
             "result": {
-              "duration": 449000000,
+              "duration": 436000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters credentails using DataTable",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_enters_credentails_using_DataTable(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4668000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should land on home page",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM using DataTable",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm-using-datatable",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DataTable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-21T12:03:35.565Z",
+        "line": 11,
+        "name": "Test the valid login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9174000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on loginPage",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 5475000000,
+              "duration": 4060000000,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 114000000,
+              "duration": 59000000,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +150,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-21T11:00:41.519Z",
+        "start_timestamp": "2020-10-21T12:03:49.318Z",
         "line": 12,
         "name": "Test the valid login",
         "description": "",
@@ -82,7 +160,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14805000000,
+              "duration": 9330000000,
               "status": "passed"
             },
             "line": 4,
@@ -94,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 384000000,
+              "duration": 325000000,
               "status": "passed"
             },
             "line": 5,
@@ -116,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 1532000000,
+              "duration": 1174000000,
               "status": "passed"
             },
             "line": 6,
@@ -128,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 51000000,
+              "duration": 97000000,
               "status": "passed"
             },
             "line": 7,
