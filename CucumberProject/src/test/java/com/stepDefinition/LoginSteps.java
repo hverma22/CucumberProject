@@ -21,11 +21,11 @@ public class LoginSteps {
 	   driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials");
 	}
 
-	@When("user enters username and password")
-	public void user_enters_username_and_password() {
+	@When("^user enters (.*) and (.*)$")
+	public void user_enters_username_and_password(String uname, String pswd) {
 		System.out.println("Step2: User enters username and pswd");
-	    driver.findElement(By.id("txtUsername")).sendKeys("admin");
-	    driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+	    driver.findElement(By.id("txtUsername")).sendKeys(uname);
+	    driver.findElement(By.id("txtPassword")).sendKeys(pswd);
 	}
 
 	@And("click on login button")
