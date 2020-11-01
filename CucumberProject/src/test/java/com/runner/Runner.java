@@ -5,13 +5,13 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features",glue={"com.stepDefinition"},
+@CucumberOptions(features="C:\\Users\\Hitendra\\git\\CucumberProject\\CucumberProject\\src\\test\\resources\\Features\\TagsDemo.feature",glue={"com.stepDefinition"},
 monochrome=true,
 plugin= {"html:Reports\\HTMLReports", "json:Reports\\JsonReports\\Cucumber.json",
 		"junit:Reports\\JUnitReport\\Cucumber.xml"},
-
 dryRun=false,
-strict=true
+strict=true,
+tags= {"@FunctionalTest and not @SmokeTest"}
 
 
 )

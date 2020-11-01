@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="44.525">
-<testcase classname="Test the login functionality of OrangeHRM using DataTable" name="Test the valid login using DataTable" time="19.315">
-<system-out><![CDATA[Given user is on loginPage..................................................passed
-When user enters credentails using DataTable................................passed
-And click on login button...................................................passed
-Then user should land on home page..........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.757">
+<testcase classname="Tags Demo" name="Sceanrio4" time="0.206">
+<system-out><![CDATA[Given This is sceanrio4.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login" time="13.75">
-<system-out><![CDATA[Given user is on loginPage..................................................passed
-When user enters admin and admin123.........................................passed
-And click on login button...................................................passed
-Then user should land on home page..........................................passed
+<testcase classname="Tags Demo" name="Sceanrio5" time="0.005">
+<system-out><![CDATA[Given This is sceanrio5.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login 2" time="10.932">
-<system-out><![CDATA[Given user is on loginPage..................................................passed
-When user enters admin1 and admin1234.......................................passed
-And click on login button...................................................passed
-Then user should land on home page..........................................passed
+<testcase classname="Tags Demo" name="Sceanrio6" time="0.005">
+<system-out><![CDATA[Given This is sceanrio6.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="Sceanrio7" time="0.007">
+<system-out><![CDATA[Given This is sceanrio7.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="Sceanrio8" time="0.003">
+<system-out><![CDATA[Given This is sceanrio8.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="Sceanrio9" time="0.004">
+<system-out><![CDATA[Given This is sceanrio9.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="Sceanrio10" time="0.003">
+<system-out><![CDATA[Given This is sceanrio10....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

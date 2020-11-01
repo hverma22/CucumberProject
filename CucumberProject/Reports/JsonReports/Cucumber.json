@@ -1,229 +1,220 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-21T12:03:16.220Z",
-        "line": 3,
-        "name": "Test the valid login using DataTable",
+        "start_timestamp": "2020-11-01T17:14:50.195Z",
+        "line": 18,
+        "name": "Sceanrio4",
         "description": "",
-        "id": "test-the-login-functionality-of-orangehrm-using-datatable;test-the-valid-login-using-datatable",
+        "id": "tags-demo;sceanrio4",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13946000000,
+              "duration": 4000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user is on loginPage",
+            "line": 19,
+            "name": "This is sceanrio4",
             "match": {
-              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
+              "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio4()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 436000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters credentails using DataTable",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_enters_credentails_using_DataTable(io.cucumber.datatable.DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "admin",
-                  "admin123"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4668000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click on login button",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 62000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user should land on home page",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
-            },
-            "keyword": "Then "
           }
-        ]
-      }
-    ],
-    "name": "Test the login functionality of OrangeHRM using DataTable",
-    "description": "",
-    "id": "test-the-login-functionality-of-orangehrm-using-datatable",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/DataTable.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-10-21T12:03:35.565Z",
-        "line": 11,
-        "name": "Test the valid login",
-        "description": "",
-        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 9174000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on loginPage",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
+            "name": "@FunctionalTest"
           },
           {
-            "result": {
-              "duration": 425000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters admin and admin123",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin",
-                  "offset": 12
-                },
-                {
-                  "val": "admin123",
-                  "offset": 22
-                }
-              ],
-              "location": "com.stepDefinition.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4060000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click on login button",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 59000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user should land on home page",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
-            },
-            "keyword": "Then "
+            "name": "@SanityTest"
           }
         ]
       },
       {
-        "start_timestamp": "2020-10-21T12:03:49.318Z",
-        "line": 12,
-        "name": "Test the valid login",
+        "start_timestamp": "2020-11-01T17:14:50.411Z",
+        "line": 21,
+        "name": "Sceanrio5",
         "description": "",
-        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;3",
+        "id": "tags-demo;sceanrio5",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9330000000,
+              "duration": 1000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user is on loginPage",
+            "line": 22,
+            "name": "This is sceanrio5",
             "match": {
-              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
+              "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio5()"
             },
             "keyword": "Given "
-          },
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T17:14:50.423Z",
+        "line": 24,
+        "name": "Sceanrio6",
+        "description": "",
+        "id": "tags-demo;sceanrio6",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 325000000,
+              "duration": 1000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user enters admin1 and admin1234",
+            "line": 25,
+            "name": "This is sceanrio6",
             "match": {
-              "arguments": [
-                {
-                  "val": "admin1",
-                  "offset": 12
-                },
-                {
-                  "val": "admin1234",
-                  "offset": 23
-                }
-              ],
-              "location": "com.stepDefinition.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+              "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio6()"
             },
-            "keyword": "When "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T17:14:50.434Z",
+        "line": 27,
+        "name": "Sceanrio7",
+        "description": "",
+        "id": "tags-demo;sceanrio7",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 1174000000,
+              "duration": 5000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "click on login button",
+            "line": 28,
+            "name": "This is sceanrio7",
             "match": {
-              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+              "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio7()"
             },
-            "keyword": "And "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T17:14:50.451Z",
+        "line": 30,
+        "name": "Sceanrio8",
+        "description": "",
+        "id": "tags-demo;sceanrio8",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 97000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user should land on home page",
+            "line": 31,
+            "name": "This is sceanrio8",
             "match": {
-              "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+              "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio8()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T17:14:50.457Z",
+        "line": 33,
+        "name": "Sceanrio9",
+        "description": "",
+        "id": "tags-demo;sceanrio9",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "This is sceanrio9",
+            "match": {
+              "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio9()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T17:14:50.473Z",
+        "line": 36,
+        "name": "Sceanrio10",
+        "description": "",
+        "id": "tags-demo;sceanrio10",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "This is sceanrio10",
+            "match": {
+              "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio10()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
           }
         ]
       }
     ],
-    "name": "Test the login functionality of OrangeHRM",
+    "name": "Tags Demo",
     "description": "",
-    "id": "test-the-login-functionality-of-orangehrm",
+    "id": "tags-demo",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/LoginFeature.feature",
-    "tags": []
+    "uri": "file:src/test/resources/Features/TagsDemo.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

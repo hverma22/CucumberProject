@@ -1,195 +1,153 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/DataTable.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/TagsDemo.feature");
 formatter.feature({
-  "name": "Test the login functionality of OrangeHRM using DataTable",
+  "name": "Tags Demo",
   "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Test the valid login using DataTable",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "name": "user is on loginPage",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters credentails using DataTable",
-  "rows": [
-    {}
-  ],
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_enters_credentails_using_DataTable(io.cucumber.datatable.DataTable)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click on login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should land on home page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/Features/LoginFeature.feature");
-formatter.feature({
-  "name": "Test the login functionality of OrangeHRM",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "name": "Test the valid login",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "user is on loginPage",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "user enters \u003cusername\u003e and \u003cpassword\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "click on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user should land on home page",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
+  "keyword": "Feature",
+  "tags": [
     {
-      "cells": [
-        "username",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "admin",
-        "admin123"
-      ]
-    },
-    {
-      "cells": [
-        "admin1",
-        "admin1234"
-      ]
+      "name": "@FunctionalTest"
     }
   ]
 });
 formatter.scenario({
-  "name": "Test the valid login",
+  "name": "Sceanrio4",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@FunctionalTest"
+    },
+    {
+      "name": "@SanityTest"
+    }
+  ]
 });
 formatter.step({
-  "name": "user is on loginPage",
+  "name": "This is sceanrio4",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin and admin123",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click on login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should land on home page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+  "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio4()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Test the valid login",
+  "name": "Sceanrio5",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@FunctionalTest"
+    }
+  ]
 });
 formatter.step({
-  "name": "user is on loginPage",
+  "name": "This is sceanrio5",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
+  "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio5()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Sceanrio6",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@FunctionalTest"
+    }
+  ]
+});
 formatter.step({
-  "name": "user enters admin1 and admin1234",
-  "keyword": "When "
+  "name": "This is sceanrio6",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+  "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio6()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Sceanrio7",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@FunctionalTest"
+    }
+  ]
+});
 formatter.step({
-  "name": "click on login button",
-  "keyword": "And "
+  "name": "This is sceanrio7",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+  "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio7()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Sceanrio8",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@FunctionalTest"
+    }
+  ]
+});
 formatter.step({
-  "name": "user should land on home page",
-  "keyword": "Then "
+  "name": "This is sceanrio8",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+  "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio8()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Sceanrio9",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@FunctionalTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "This is sceanrio9",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio9()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Sceanrio10",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@FunctionalTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "This is sceanrio10",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.stepDefinition.TagsStepDefinition.this_is_sceanrio10()"
 });
 formatter.result({
   "status": "passed"
