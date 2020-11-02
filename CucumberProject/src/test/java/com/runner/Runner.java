@@ -10,9 +10,7 @@ monochrome=true,
 plugin= {"html:Reports\\HTMLReports", "json:Reports\\JsonReports\\Cucumber.json",
 		"junit:Reports\\JUnitReport\\Cucumber.xml"},
 dryRun=false,
-strict=true,
-tags= {"@FunctionalTest and not @SmokeTest"}
-
+strict=true
 
 )
 public class Runner {
