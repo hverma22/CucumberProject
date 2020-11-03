@@ -9,8 +9,10 @@ import io.cucumber.junit.CucumberOptions;
 monochrome=true,
 plugin= {"html:Reports\\HTMLReports", "json:Reports\\JsonReports\\Cucumber.json",
 		"junit:Reports\\JUnitReport\\Cucumber.xml"},
-dryRun=false,
-strict=true
+
+dryRun=false,  // mapping between feature file and step file
+strict=true,  //it will check if any step is not defined in step def file
+tags= {"@FunctionalTest and @SmokeTest"}
 
 )
 public class Runner {
